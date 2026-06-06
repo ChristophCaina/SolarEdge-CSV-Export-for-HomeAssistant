@@ -24,7 +24,7 @@ pip install requests python-dateutil
  
 | Script | Purpose | Output Format |
 |---|---|---|
-| `solaredge_to_ha_statistics.py` | Fetch historical **energy** data (kWh) | `delta` per hour |
+| `solaredge_export_energy.py` | Fetch historical **energy** data (kWh) | `delta` per hour |
 | `solaredge_export_power.py` | Fetch historical **power** data (W) | `mean / min / max` per hour |
 | `solaredge_get_offsets.py` | Query cumulative meter readings at a point in time | Console output only |
  
