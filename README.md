@@ -30,7 +30,7 @@ pip install requests python-dateutil
  
 ---
  
-## `solaredge_to_ha_statistics.py` — Energy Export
+## `solaredge_export_energy.py` — Energy Export
  
 Fetches energy data (Production, FeedIn, Purchased, Consumption) from the SolarEdge API and writes one CSV file per meter type in the delta format required by `homeassistant-statistics`.
  
